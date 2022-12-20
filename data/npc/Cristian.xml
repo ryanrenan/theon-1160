@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Cristian" script="data/npc/scripts/food.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="131" head="0" body="82" legs="120" feet="0" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu vendo ham, meat, carrots, apples, brown breads e brown mushrooms. Sinto que esta com fome, nao demore, diga {negociar} e se alimente!."/>
+		<parameter key="shop_buyable" value="brown bread,2691,7;ham,2671,20;carrot,2684,5;meat,2666,10;apple,2674,5;brown mushroom,2789,15"/>
+	</parameters>
+</npc>

@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+  <spawn centerx="1000" centery="1149" centerz="1" radius="1">
+    <monster name="Bazir" x="0" y="0" z="1" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1009" centery="1149" centerz="1" radius="1">
+    <monster name="Bazir" x="0" y="0" z="1" spawntime="60"/>
+  </spawn>
+  <spawn centerx="999" centery="1149" centerz="2" radius="1">
+    <monster name="Bazir" x="0" y="0" z="2" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1009" centery="1149" centerz="2" radius="1">
+    <monster name="Bazir" x="0" y="0" z="2" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1004" centery="1170" centerz="2" radius="1">
+    <monster name="Bazir" x="0" y="0" z="2" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1007" centery="1170" centerz="2" radius="1">
+    <monster name="Bazir" x="0" y="0" z="2" spawntime="60"/>
+  </spawn>
+  <spawn centerx="999" centery="1149" centerz="3" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="3" spawntime="60"/>
+    <monster name="Infernatil" x="1" y="1" z="3" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1009" centery="1149" centerz="3" radius="1">
+    <monster name="Infernatil" x="0" y="1" z="3" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1000" centery="1150" centerz="3" radius="1"/>
+  <spawn centerx="1009" centery="1150" centerz="3" radius="1"/>
+  <spawn centerx="1004" centery="1169" centerz="3" radius="1">
+    <monster name="Bazir" x="0" y="0" z="3" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1008" centery="1169" centerz="3" radius="1">
+    <monster name="Bazir" x="0" y="0" z="3" spawntime="60"/>
+  </spawn>
+  <spawn centerx="999" centery="1149" centerz="4" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="4" spawntime="60"/>
+    <monster name="Infernatil" x="0" y="1" z="4" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1009" centery="1149" centerz="4" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="4" spawntime="60"/>
+    <monster name="Infernatil" x="0" y="1" z="4" spawntime="61"/>
+  </spawn>
+  <spawn centerx="999" centery="1150" centerz="4" radius="1"/>
+  <spawn centerx="1009" centery="1150" centerz="4" radius="1"/>
+  <spawn centerx="1004" centery="1169" centerz="4" radius="1">
+    <monster name="Bazir" x="0" y="0" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1006" centery="1169" centerz="4" radius="1">
+    <monster name="Bazir" x="0" y="0" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1008" centery="1169" centerz="4" radius="1">
+    <monster name="Bazir" x="0" y="0" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1098" centery="1064" centerz="5" radius="1">
+    <npc name="Vendo bp" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="968" centery="1130" centerz="5" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="970" centery="1130" centerz="5" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="969" centery="1133" centerz="5" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1149" centerz="5" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="5" spawntime="61"/>
+    <monster name="Infernalty" x="1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="999" centery="1149" centerz="5" radius="1"/>
+  <spawn centerx="1009" centery="1150" centerz="5" radius="1">
+    <monster name="Bazir" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1003" centery="1157" centerz="5" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1009" centery="1157" centerz="5" radius="1">
+    <monster name="Bazir" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1000" centery="1159" centerz="5" radius="1">
+    <monster name="Infernatil" x="-1" y="0" z="5" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1003" centery="1160" centerz="5" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="5" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1008" centery="1160" centerz="5" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="968" centery="1165" centerz="5" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="970" centery="1165" centerz="5" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1043" centery="1165" centerz="5" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1045" centery="1165" centerz="5" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="969" centery="1168" centerz="5" radius="1">
+    <monster name="Verminor" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1043" centery="1168" centerz="5" radius="1">
+    <monster name="Verminor" x="0" y="0" z="5" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1004" centery="1169" centerz="5" radius="1">
+    <monster name="Bazir" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1006" centery="1169" centerz="5" radius="1">
+    <monster name="Bazir" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1008" centery="1169" centerz="5" radius="1">
+    <monster name="Bazir" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="998" centery="1181" centerz="5" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1006" centery="1181" centerz="5" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1014" centery="1181" centerz="5" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1002" centery="1192" centerz="5" radius="1">
+    <monster name="Verminor" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1010" centery="1192" centerz="5" radius="1">
+    <monster name="Verminor" x="0" y="0" z="5" spawntime="1024"/>
+  </spawn>
+  <spawn centerx="1098" centery="1058" centerz="6" radius="1">
+    <npc name="Vendo pets" x="0" y="0" z="6" spawntime="180"/>
+  </spawn>
+  <spawn centerx="1607" centery="1084" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1610" centery="1084" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1595" centery="1085" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1597" centery="1085" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1620" centery="1085" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1622" centery="1085" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1595" centery="1088" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1597" centery="1088" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1607" centery="1088" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1609" centery="1088" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1620" centery="1088" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1622" centery="1088" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1122" centery="1102" centerz="6" radius="1"/>
+  <spawn centerx="1083" centery="1108" centerz="6" radius="1"/>
+  <spawn centerx="1016" centery="1127" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+    <monster name="Demon" x="1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1019" centery="1127" centerz="6" radius="1"/>
+  <spawn centerx="968" centery="1128" centerz="6" radius="1">
+    <monster name="Orshabaal" x="-1" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="988" centery="1128" centerz="6" radius="1">
+    <monster name="Demon" x="-1" y="1" z="6" spawntime="1024"/>
+  </spawn>
+  <spawn centerx="992" centery="1128" centerz="6" radius="1"/>
+  <spawn centerx="994" centery="1128" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+    <monster name="Demon" x="1" y="0" z="6" spawntime="1024"/>
+  </spawn>
+  <spawn centerx="995" centery="1128" centerz="6" radius="1"/>
+  <spawn centerx="997" centery="1128" centerz="6" radius="1"/>
+  <spawn centerx="1023" centery="1128" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="970" centery="1129" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1025" centery="1129" centerz="6" radius="1"/>
+  <spawn centerx="967" centery="1130" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="981" centery="1130" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="970" centery="1131" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="977" centery="1131" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1131" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="-1" z="6" spawntime="15"/>
+    <monster name="Demon" x="0" y="1" z="6" spawntime="1024"/>
+  </spawn>
+  <spawn centerx="1031" centery="1131" centerz="6" radius="1">
+    <monster name="Demon" x="-1" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1035" centery="1131" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="-1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="967" centery="1133" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="969" centery="1133" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1133" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+    <monster name="Demon" x="-1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1024" centery="1133" centerz="6" radius="1"/>
+  <spawn centerx="987" centery="1134" centerz="6" radius="1"/>
+  <spawn centerx="1025" centery="1136" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1137" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="-1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="988" centery="1138" centerz="6" radius="1"/>
+  <spawn centerx="997" centery="1138" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1000" centery="1138" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1003" centery="1138" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1006" centery="1138" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1010" centery="1138" centerz="6" radius="1">
+    <monster name="Verminor" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1014" centery="1138" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1016" centery="1138" centerz="6" radius="1">
+    <monster name="Verminor" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1025" centery="1139" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="988" centery="1141" centerz="6" radius="1">
+    <monster name="Demon" x="-1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1142" centerz="6" radius="1"/>
+  <spawn centerx="987" centery="1143" centerz="6" radius="1"/>
+  <spawn centerx="1025" centery="1144" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="996" centery="1145" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Infernatil" x="1" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1014" centery="1145" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="997" centery="1146" centerz="6" radius="1"/>
+  <spawn centerx="1016" centery="1146" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="987" centery="1147" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1148" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1025" centery="1148" centerz="6" radius="1">
+    <monster name="Demon" x="-1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1149" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="997" centery="1150" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1015" centery="1150" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1006" centery="1151" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1025" centery="1152" centerz="6" radius="1"/>
+  <spawn centerx="987" centery="1153" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="995" centery="1153" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="997" centery="1153" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1001" centery="1153" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1004" centery="1153" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1007" centery="1153" centerz="6" radius="1">
+    <monster name="Verminor" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1010" centery="1153" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1012" centery="1153" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1014" centery="1153" centerz="6" radius="1">
+    <monster name="Verminor" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1025" centery="1154" centerz="6" radius="1"/>
+  <spawn centerx="987" centery="1155" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1156" centerz="6" radius="1"/>
+  <spawn centerx="1002" centery="1156" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1157" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1158" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1002" centery="1158" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1007" centery="1158" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1010" centery="1158" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1014" centery="1158" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="987" centery="1159" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="-1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1160" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1006" centery="1160" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1010" centery="1160" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1014" centery="1160" centerz="6" radius="1">
+    <monster name="Infernalty" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1160" centerz="6" radius="1"/>
+  <spawn centerx="987" centery="1162" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1001" centery="1162" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1003" centery="1162" centerz="6" radius="1">
+    <monster name="Infernatil" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1015" centery="1162" centerz="6" radius="1">
+    <monster name="Verminor" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="987" centery="1163" centerz="6" radius="1"/>
+  <spawn centerx="1006" centery="1163" centerz="6" radius="1">
+    <monster name="Verminor" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1025" centery="1163" centerz="6" radius="1">
+    <monster name="Demon" x="-1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="968" centery="1164" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="970" centery="1164" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1043" centery="1164" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+    <monster name="Orshabaal" x="1" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1044" centery="1164" centerz="6" radius="1"/>
+  <spawn centerx="1025" centery="1165" centerz="6" radius="1"/>
+  <spawn centerx="967" centery="1166" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="978" centery="1166" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+    <monster name="Demon" x="0" y="1" z="6" spawntime="1024"/>
+  </spawn>
+  <spawn centerx="980" centery="1166" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="982" centery="1166" centerz="6" radius="1"/>
+  <spawn centerx="985" centery="1166" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="986" centery="1166" centerz="6" radius="1"/>
+  <spawn centerx="1027" centery="1166" centerz="6" radius="1"/>
+  <spawn centerx="1031" centery="1166" centerz="6" radius="1"/>
+  <spawn centerx="1032" centery="1166" centerz="6" radius="1"/>
+  <spawn centerx="1034" centery="1166" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+    <monster name="Demon" x="0" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1043" centery="1166" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="970" centery="1167" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1168" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1015" centery="1168" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1024" centery="1168" centerz="6" radius="1"/>
+  <spawn centerx="1042" centery="1168" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+    <monster name="Orshabaal" x="1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="968" centery="1169" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="970" centery="1169" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1003" centery="1169" centerz="6" radius="1">
+    <monster name="Bazir" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1005" centery="1169" centerz="6" radius="1">
+    <monster name="Bazir" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1007" centery="1169" centerz="6" radius="1">
+    <monster name="Bazir" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1043" centery="1169" centerz="6" radius="1"/>
+  <spawn centerx="1045" centery="1169" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1170" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="1" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="996" centery="1170" centerz="6" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1013" centery="1170" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1016" centery="1170" centerz="6" radius="1">
+    <monster name="Verminor" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="999" centery="1171" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1024" centery="1171" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="988" centery="1172" centerz="6" radius="1"/>
+  <spawn centerx="1025" centery="1174" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="987" centery="1175" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1176" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="988" centery="1178" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1024" centery="1179" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="987" centery="1181" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="997" centery="1181" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="999" centery="1181" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1005" centery="1181" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1007" centery="1181" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1013" centery="1181" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1015" centery="1181" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1024" centery="1182" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="987" centery="1184" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1186" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="987" centery="1187" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="987" centery="1188" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="986" centery="1190" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+    <monster name="Demon" x="1" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1190" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="987" centery="1191" centerz="6" radius="1"/>
+  <spawn centerx="1001" centery="1192" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1003" centery="1192" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1009" centery="1192" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1011" centery="1192" centerz="6" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="987" centery="1194" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1194" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1575" centery="1194" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1578" centery="1194" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="987" centery="1197" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+    <monster name="Demon" x="0" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1026" centery="1197" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1575" centery="1197" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="987" centery="1198" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="988" centery="1199" centerz="6" radius="1">
+    <monster name="Demon" x="-1" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1199" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="1" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1578" centery="1199" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="987" centery="1200" centerz="6" radius="1"/>
+  <spawn centerx="1575" centery="1200" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1631" centery="1200" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1635" centery="1200" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="987" centery="1203" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1203" centerz="6" radius="1">
+    <monster name="Demon" x="-1" y="0" z="6" spawntime="61"/>
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1027" centery="1203" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1031" centery="1203" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1034" centery="1203" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1631" centery="1203" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1635" centery="1203" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="977" centery="1204" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="981" centery="1204" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="984" centery="1204" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1006" centery="1205" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1631" centery="1206" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="988" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="993" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1001" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1003" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1008" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1013" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1016" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="0" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1019" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1023" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1025" centery="1209" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="997" centery="1210" centerz="6" radius="1">
+    <monster name="Demon" x="1" y="0" z="6" spawntime="61"/>
+  </spawn>
+  <spawn centerx="1132" centery="1210" centerz="6" radius="1">
+    <monster name="Mercenario" x="1" y="0" z="6" spawntime="60"/>
+    <monster name="Mercenaria" x="0" y="1" z="6" spawntime="10"/>
+  </spawn>
+  <spawn centerx="1132" centery="1211" centerz="6" radius="1"/>
+  <spawn centerx="1603" centery="1222" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1606" centery="1222" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1609" centery="1222" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1603" centery="1225" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1606" centery="1225" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1178" centery="1234" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="-1" z="6" spawntime="60"/>
+    <monster name="Mercenario" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1125" centery="1242" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Mercenario" x="1" y="0" z="6" spawntime="10"/>
+  </spawn>
+  <spawn centerx="1174" centery="1249" centerz="6" radius="1">
+    <monster name="Mercenario" x="-1" y="0" z="6" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1175" centery="1249" centerz="6" radius="1">
+    <monster name="Mercenario" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1602" centery="1255" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1605" centery="1256" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1602" centery="1257" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1606" centery="1258" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1602" centery="1260" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1605" centery="1260" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1620" centery="1260" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1616" centery="1261" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1616" centery="1263" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Mercenario" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1620" centery="1263" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1616" centery="1264" centerz="6" radius="1"/>
+  <spawn centerx="1619" centery="1265" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1590" centery="1268" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Mercenaria" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1593" centery="1268" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1590" centery="1269" centerz="6" radius="1"/>
+  <spawn centerx="1593" centery="1270" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1590" centery="1271" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1593" centery="1272" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1611" centery="1278" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1614" centery="1278" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Mercenario" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1615" centery="1279" centerz="6" radius="1"/>
+  <spawn centerx="1611" centery="1280" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1614" centery="1281" centerz="6" radius="1">
+    <monster name="Mercenario" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1611" centery="1282" centerz="6" radius="1">
+    <monster name="Mercenaria" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1086" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1088" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1091" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1093" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1096" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1098" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1101" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1103" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1106" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1108" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1111" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1113" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1116" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1118" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1121" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1123" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1126" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1128" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1131" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1133" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1136" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1138" centery="855" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1086" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1088" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1091" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1093" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1096" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1098" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1101" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1103" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1106" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1108" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1111" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1113" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1116" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1118" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1121" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1123" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1126" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1128" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1131" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1133" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1136" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1138" centery="873" centerz="7" radius="1">
+    <monster name="Trainer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1348" centery="1022" centerz="7" radius="1">
+    <monster name="Minerador" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1345" centery="1023" centerz="7" radius="1">
+    <monster name="Minerador" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1350" centery="1025" centerz="7" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1077" centery="1028" centerz="7" radius="1"/>
+  <spawn centerx="1083" centery="1028" centerz="7" radius="1"/>
+  <spawn centerx="1350" centery="1028" centerz="7" radius="1">
+    <monster name="pescador" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1350" centery="1030" centerz="7" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1350" centery="1033" centerz="7" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1350" centery="1036" centerz="7" radius="1">
+    <monster name="pescador" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1350" centery="1037" centerz="7" radius="1"/>
+  <spawn centerx="1347" centery="1038" centerz="7" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="961" centery="1053" centerz="7" radius="3">
+    <monster name="Apocalypse" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Bazir" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Verminor" x="1" y="1" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="1" y="2" z="7" spawntime="60"/>
+    <monster name="Bazir" x="1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="974" centery="1053" centerz="7" radius="3">
+    <monster name="Verminor" x="-2" y="-3" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Verminor" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Verminor" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="-2" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1116" centery="1054" centerz="7" radius="1"/>
+  <spawn centerx="974" centery="1055" centerz="7" radius="3">
+    <monster name="Bazir" x="-2" y="3" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="-1" y="3" z="7" spawntime="60"/>
+    <monster name="Verminor" x="1" y="3" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="960" centery="1060" centerz="7" radius="3">
+    <monster name="Verminor" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Bazir" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="985" centery="1062" centerz="7" radius="3">
+    <monster name="Castle Master" x="-2" y="0" z="7" spawntime="1"/>
+  </spawn>
+  <spawn centerx="1030" centery="1063" centerz="7" radius="1">
+    <npc name="Skuller" x="0" y="1" z="7" spawntime="35"/>
+  </spawn>
+  <spawn centerx="968" centery="1068" centerz="7" radius="3">
+    <monster name="Apocalypse" x="-3" y="-2" z="7" spawntime="60"/>
+    <monster name="Verminor" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Bazir" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Verminor" x="3" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="974" centery="1068" centerz="7" radius="3">
+    <monster name="Bazir" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Verminor" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Bazir" x="3" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1082" centery="1074" centerz="7" radius="1">
+    <npc name="Varkhal" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1037" centery="1096" centerz="7" radius="1"/>
+  <spawn centerx="970" centery="1130" centerz="7" radius="5">
+    <monster name="Demon" x="-1" y="-1" z="7" spawntime="15"/>
+    <monster name="Orshabaal" x="2" y="-1" z="7" spawntime="15"/>
+    <monster name="Orshabaal" x="-1" y="2" z="7" spawntime="15"/>
+    <monster name="Demon" x="2" y="2" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1001" centery="1145" centerz="7" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1013" centery="1145" centerz="7" radius="1">
+    <monster name="Verminor" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="997" centery="1146" centerz="7" radius="1">
+    <monster name="Verminor" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1006" centery="1147" centerz="7" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1002" centery="1149" centerz="7" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1011" centery="1149" centerz="7" radius="1"/>
+  <spawn centerx="1016" centery="1149" centerz="7" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="996" centery="1152" centerz="7" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1002" centery="1152" centerz="7" radius="1">
+    <monster name="Apocalypse" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1012" centery="1152" centerz="7" radius="1">
+    <monster name="Verminor" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1006" centery="1153" centerz="7" radius="1">
+    <monster name="Verminor" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="999" centery="1154" centerz="7" radius="1">
+    <monster name="Verminor" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1007" centery="1155" centerz="7" radius="15">
+    <monster name="Verminor" x="2" y="-6" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="-2" y="2" z="7" spawntime="60"/>
+    <monster name="Verminor" x="-9" y="3" z="7" spawntime="60"/>
+    <monster name="Verminor" x="3" y="3" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="6" y="3" z="7" spawntime="2000"/>
+    <monster name="Verminor" x="-3" y="6" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="-11" y="7" z="7" spawntime="60"/>
+    <monster name="Verminor" x="-8" y="7" z="7" spawntime="60"/>
+    <monster name="Verminor" x="6" y="7" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="9" y="7" z="7" spawntime="60"/>
+    <monster name="Apocalypse" x="1" y="8" z="7" spawntime="60"/>
+    <monster name="Bazir" x="1" y="13" z="7" spawntime="60"/>
+    <monster name="Orshabaal" x="-11" y="14" z="7" spawntime="15"/>
+    <monster name="Orshabaal" x="-8" y="14" z="7" spawntime="15"/>
+    <monster name="Bazir" x="-3" y="14" z="7" spawntime="60"/>
+    <monster name="Bazir" x="-1" y="14" z="7" spawntime="60"/>
+    <monster name="Bazir" x="2" y="14" z="7" spawntime="60"/>
+    <monster name="Orshabaal" x="6" y="14" z="7" spawntime="15"/>
+    <monster name="Orshabaal" x="8" y="14" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1158" centerz="7" radius="1"/>
+  <spawn centerx="1007" centery="1158" centerz="7" radius="1"/>
+  <spawn centerx="1014" centery="1158" centerz="7" radius="1"/>
+  <spawn centerx="996" centery="1162" centerz="7" radius="1"/>
+  <spawn centerx="999" centery="1162" centerz="7" radius="1"/>
+  <spawn centerx="1013" centery="1162" centerz="7" radius="1"/>
+  <spawn centerx="1016" centery="1162" centerz="7" radius="1"/>
+  <spawn centerx="1008" centery="1163" centerz="7" radius="1"/>
+  <spawn centerx="1040" centery="1164" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1044" centery="1164" centerz="7" radius="1">
+    <monster name="Demon" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="968" centery="1165" centerz="7" radius="1">
+    <monster name="Demon" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="972" centery="1165" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1008" centery="1168" centerz="7" radius="1"/>
+  <spawn centerx="968" centery="1169" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="972" centery="1169" centerz="7" radius="1">
+    <monster name="Demon" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="996" centery="1169" centerz="7" radius="1"/>
+  <spawn centerx="999" centery="1169" centerz="7" radius="1"/>
+  <spawn centerx="1004" centery="1169" centerz="7" radius="1"/>
+  <spawn centerx="1006" centery="1169" centerz="7" radius="1"/>
+  <spawn centerx="1009" centery="1169" centerz="7" radius="1"/>
+  <spawn centerx="1013" centery="1169" centerz="7" radius="1"/>
+  <spawn centerx="1015" centery="1169" centerz="7" radius="1"/>
+  <spawn centerx="1040" centery="1169" centerz="7" radius="1">
+    <monster name="Demon" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1044" centery="1169" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="996" centery="1175" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1013" centery="1176" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1002" centery="1178" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1005" centery="1178" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1181" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1006" centery="1181" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1014" centery="1181" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1002" centery="1187" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1010" centery="1187" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1004" centery="1188" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1015" centery="1188" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1189" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="997" centery="1192" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1002" centery="1192" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1010" centery="1192" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1006" centery="1193" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="998" centery="1196" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1002" centery="1197" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1005" centery="1197" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1016" centery="1197" centerz="7" radius="1">
+    <monster name="Orshabaal" x="0" y="0" z="7" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1045" centery="892" centerz="8" radius="5"/>
+  <spawn centerx="1099" centery="894" centerz="8" radius="5"/>
+  <spawn centerx="1068" centery="896" centerz="8" radius="5"/>
+  <spawn centerx="1078" centery="900" centerz="8" radius="5"/>
+  <spawn centerx="1090" centery="906" centerz="8" radius="5"/>
+  <spawn centerx="1101" centery="907" centerz="8" radius="5"/>
+  <spawn centerx="1058" centery="909" centerz="8" radius="5"/>
+  <spawn centerx="1110" centery="914" centerz="8" radius="5"/>
+  <spawn centerx="1086" centery="1008" centerz="8" radius="5"/>
+  <spawn centerx="1307" centery="1016" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1315" centery="1016" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1320" centery="1016" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1327" centery="1016" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1310" centery="1017" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1304" centery="1018" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1334" centery="1018" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1304" centery="1023" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1334" centery="1024" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1334" centery="1029" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1304" centery="1030" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1308" centery="1030" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1314" centery="1030" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1318" centery="1030" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1320" centery="1033" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1334" centery="1034" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1338" centery="1037" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1342" centery="1037" centerz="8" radius="1">
+    <monster name="Mineradora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1320" centery="1039" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1298" centery="1044" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1301" centery="1044" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1307" centery="1044" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1311" centery="1044" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1315" centery="1044" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1320" centery="1044" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="pescador" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1282" centery="1046" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1298" centery="1047" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1282" centery="1049" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1298" centery="1051" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1282" centery="1052" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1298" centery="1054" centerz="8" radius="1">
+    <monster name="Pescadora" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1282" centery="1055" centerz="8" radius="1">
+    <monster name="Minerador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1298" centery="1057" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1282" centery="1059" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1294" centery="1059" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1286" centery="1060" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1290" centery="1060" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1298" centery="1061" centerz="8" radius="1">
+    <monster name="pescador" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1095" centery="1065" centerz="8" radius="1">
+    <npc name="Bancoguild" x="0" y="0" z="8" spawntime="15"/>
+  </spawn>
+  <spawn centerx="1006" centery="1182" centerz="8" radius="5">
+    <monster name="Castle Master" x="0" y="0" z="8" spawntime="200"/>
+  </spawn>
+  <spawn centerx="1006" centery="1183" centerz="8" radius="5"/>
+  <spawn centerx="1038" centery="1094" centerz="9" radius="1"/>
+</spawns>

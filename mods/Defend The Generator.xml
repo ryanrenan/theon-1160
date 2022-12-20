@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>  
+<mod name="Defend The Generator" version="1.0" author="LuckOake" contact="none" enabled="yes">
+-----------------------------------------------------------------------
+<config name="generator"><![CDATA[
+teams = {
+        ["Defenders"] = {
+                pos = {x = 1286, y = 856, z = 7},
+                storage = 43110,
+        },
+        ["Invaders"] = {
+                pos = {x = 1219, y = 856, z = 7},
+                storage = 43111,
+        }
+}
+ 
+defpos,defstor = teams["Defenders"].pos,teams["Defenders"].storage
+invpos,invstor = teams["Invaders"].pos,teams["Invaders"].storage
+stor = 43112
+tstor = 43113
+sstor = 43114
+gstor = 43115
+ 
+area1 = {x = 1213, y = 850, z = 7} -- Ponta de cima na esquerda da área
+area2 = {x = 1292, y = 862, z = 7} -- Ponta de baixo na direita da área
+tp_pos = {x = 1147, y = 1049, z = 7, stackpos = 1} -- Posição do teleport (Não altere o stackpos)
+sparkpos = {x = 1291, y = 856, z = 7} -- Posição dos sparks do Gerador
+maxplayers = 12 -- Máximo de players (De preferência, coloque um número par)
+gtime = 10 -- Quantos segundos o gerador deverá ficar desligado para que os Invaders vençam
+wall = { -- Positions das paredes de bloqueio (Não altere o stackpos)
+        [1] = {x = 1225, y = 856, z = 7, stackpos = 1},
+        [2] = {x = 1280, y = 856, z = 7, stackpos = 1},
+        [3] = {x = 1225, y = 857, z = 7, stackpos = 1},
+        [4] = {x = 1280, y = 857, z = 7, stackpos = 1},
+        }
+wallid = 9532 -- Id das walls
+prizes = {
+[1] = {id = 2159, count = 13}
+}
+prand = math.random(1, #prizes)
+ 
+function isMale(cid)
+        return getPlayerSex(cid) == 1 and true or false
+end
+ 
+function isFemale(cid)
+        return getPlayerSex(cid) == 0 and true or false
+end
+ 
+function getNumberType(n)
+        return n % 2 == 0 and "par" or "impar"
+end
+ 
+function selectPlayerTeam(cid)
+        if getNumberType(getGlobalStorageValue(stor)) == "par" then
+                doTeleportThing(cid, defpos)
+                setPlayerStorageValue(cid, tstor, 1)
+                registerCreatureEvent(cid, "GeneratorCast")
+                setGlobalStorageValue(defstor, getGlobalStorageValue(defstor)+1)
+                doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, "You must DEFEND the Generator. Kill the invaders!")
+        if isMale(cid) then
+                doSetCreatureOutfit(cid, {lookType = math.random(128,134), lookHead = 88, lookBody = 88, lookLegs = 88, lookFeet = 88}, -1)
+        elseif isFemale(cid) then
+                doSetCreatureOutfit(cid, {lookType = math.random(136,142), lookHead = 88, lookBody = 88, lookLegs = 88, lookFeet = 88}, -1)
+        end
+        elseif getNumberType(getGlobalStorageValue(stor)) == "impar" then
+                doTeleportThing(cid, invpos)
+                setPlayerStorageValue(cid, tstor, 2)
+                setGlobalStorageValue(invstor, getGlobalStorageValue(invstor)+1)
+                doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, "You must DISABLE the Generator. Crush the defenders!")
+        if isMale(cid) then
+                doSetCreatureOutfit(cid, {lookType = math.random(128,134), lookHead = 94, lookBody = 94, lookLegs = 94, lookFeet = 94}, -1)
+        elseif isFemale(cid) then
+                doSetCreatureOutfit(cid, {lookType = math.random(136,142), lookHead = 94, lookBody = 94, lookLegs = 94, lookFeet = 94}, -1)
+        end
+        end
+                setGlobalStorageValue(stor, getGlobalStorageValue(stor)+1)
+                registerCreatureEvent(cid, "GeneratorLogout")
+                registerCreatureEvent(cid, "GeneratorDeath")
+end
+ 
+function removeWalls()
+        for _, walls in ipairs(wall) do
+                doRemoveItem(getThingFromPos(walls).uid, 1)
+        end
+end
+ 
+function createWalls()
+        for _, walls in ipairs(wall) do
+                doCreateItem(wallid, 1, walls)
+        end
+end
+ 
+function isGeneratorActived()
+return getGlobalStorageValue(gstor) == 1 and true or false
+end
+ 
+function generateSparks()
+        if isGeneratorActived() then   
+                doSendMagicEffect(sparkpos, 11)
+                addEvent(generateSparks, 1000)
+        end
+end
+ 
+function startEvent()
+        setGlobalStorageValue(gstor, 1)
+        generateSparks()
+        doRemoveItem(getThingFromPos(tp_pos).uid, 1)
+        doSendMagicEffect(tp_pos, 2)
+        broadcastMessage("Defend The Generator Event started.")
+        removeWalls()
+end
+ 
+function resetEvent()
+        for _, pid in ipairs(getPlayersOnline()) do
+                if isDefender(pid) or isInvader(pid) then
+                        setPlayerStorageValue(pid, tstor, -1)
+                        doRemoveCondition(pid, CONDITION_OUTFIT)
+                        doTeleportThing(pid, getTownTemplePosition(getPlayerTown(pid)))
+                        addEvent(doRemoveCreature, 3000, pid)
+                end
+        end
+                        setGlobalStorageValue(stor, -1)
+                        setGlobalStorageValue(sstor, -1)
+                        setGlobalStorageValue(defstor, -1)
+                        setGlobalStorageValue(invstor, -1)
+                        setGlobalStorageValue(gstor, -1)
+                        createWalls()
+end
+ 
+function destroyGenerator()
+        if getGlobalStorageValue(stor) == -1 then return true end
+        for _, tid in ipairs(getPlayersOnline()) do
+                if isInvader(tid) then
+                        if not doPlayerAddItem(tid, prizes[prand].id, prizes[prand].count) then
+                        local parcel = doCreateItemEx(ITEM_PARCEL)
+                                doAddContainerItem(parcel, prizes[prand].id, prizes[prand].count)
+                                doPlayerSendMailByName(getCreatureName(tid), parcel, getPlayerTown(tid))
+                                doPlayerSendTextMessage(tid, MESSAGE_STATUS_CONSOLE_BLUE, "Not enough cap. Your prize was sent to the depot.")
+                        end
+                                doPlayerSendTextMessage(tid, MESSAGE_STATUS_CONSOLE_BLUE, "You win "..prizes[prand].count.."x "..getItemNameById(prizes[prand].id)..".")
+                end
+        end
+        broadcastMessage("The generator is destroyed! The Invaders Team won!")
+        resetEvent()
+end
+ 
+function isDefender(cid)
+return getPlayerStorageValue(cid, tstor) == 1 and true or false
+end
+ 
+function isInvader(cid)
+return getPlayerStorageValue(cid, tstor) == 2 and true or false
+end
+ 
+function openTeleport()
+        local tp = 1387
+        local tele = doCreateItem(tp, 1, tp_pos)
+                setGlobalStorageValue(defstor, 0)
+                setGlobalStorageValue(invstor, 0)
+                doItemSetAttribute(tele, "aid", 23590)
+                doSendMagicEffect(tp_pos, 10)
+                setGlobalStorageValue(stor, 0)
+                broadcastMessage("Defend The Generator Event is now open!")
+end
+]]></config>
+------------------------------------------------------------------------------------
+<talkaction words="/generator" access="5" event="buffer"><![CDATA[
+domodlib('generator')
+        if not param then
+                doPlayerSendCancel(cid, 'Incorrect params. Choose if the event will "open", "force" or "reset".') return true
+        elseif param == "open" then
+                if getGlobalStorageValue(stor) ~= -1 or getGlobalStorageValue(stor) > 0 then
+                        doPlayerSendCancel(cid, "You can't start the event now.") return true
+                end
+                        openTeleport()
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You've opened the Defend The Generator event.") return true
+        elseif param == "force" then
+                if getGlobalStorageValue(stor) == -1 or getGlobalStorageValue(sstor) >= 1 then
+                        doPlayerSendCancel(cid, "You can't force the event now.") return true
+                end
+                        setGlobalStorageValue(sstor, 1)
+                        startEvent()
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You've closed the Defend The Generator event.") return true
+        elseif param == "reset" then
+                if getGlobalStorageValue(stor) == -1 or getGlobalStorageValue(sstor) == -1 then
+                        doPlayerSendCancel(cid, "You can't end the event now.") return true
+                end
+                        resetEvent()
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You've reseted the Defend The Generator event.") return true
+        end
+return true
+]]></talkaction>
+------------------------------------------------------------------------------------
+<action actionid="25177" event="script"><![CDATA[
+domodlib('generator')
+        if isDefender(cid) and isGeneratorActived() then
+                doPlayerSendCancel(cid, "You cannot deactivate the generator. You are defending it!") return true
+        elseif isInvader(cid) and isGeneratorActived() then
+                setGlobalStorageValue(gstor, -1)
+                broadcastMessage(""..getCreatureName(cid).." [INVADER] turned OFF the generator! Defenders Team now have "..gtime.." seconds to turn on it again or they will lose!")
+                y = addEvent(destroyGenerator, gtime*1000)
+        elseif isDefender(cid) and not isGeneratorActived() then
+                setGlobalStorageValue(gstor, 1)
+                generateSparks()
+                broadcastMessage(""..getCreatureName(cid).." [DEFENDER] turned ON the generator!")
+                stopEvent(y)
+        elseif isInvader(cid) and not isGeneratorActived() then
+                doPlayerSendCancel(cid, "The generator is already off!") return true
+        end
+                doSendAnimatedText(getThingPos(item.uid), getGlobalStorageValue(gstor) == -1 and "Off!" or "On!", math.random(1, 255))
+return true
+]]></action>
+------------------------------------------------------------------------------------
+<movevent type="StepIn" actionid="23590" event="script"><![CDATA[
+domodlib('generator')
+function onStepIn(cid, position, fromPosition)
+        if getGlobalStorageValue(stor) == (maxplayers-1) then
+                setGlobalStorageValue(sstor, 1)
+                startEvent()
+        else
+                broadcastMessage(""..getCreatureName(cid).." entered in the Defend The Generator Event. There is "..(maxplayers-(getGlobalStorageValue(stor)+1)).." slots remaining.")
+        end
+                selectPlayerTeam(cid)
+return true
+end
+]]></movevent>
+------------------------------------------------------------------------------------
+<event type="logout" name="GeneratorLogout" event="script"><![CDATA[  
+domodlib('generator')
+function onLogout(cid)
+        if getPlayerStorageValue(cid, tstor) >= 1 then
+                doPlayerSendCancel(cid, "You can't logout when you are in this event!") return false
+        end
+return true
+end
+]]></event>
+------------------------------------------------------------------------------------
+<event type="preparedeath" name="GeneratorDeath" event="script"><![CDATA[  
+domodlib('generator')
+function onPrepareDeath(cid)
+        if isInvader(cid) and getGlobalStorageValue(invstor) > 1 then
+                setGlobalStorageValue(invstor, getGlobalStorageValue(invstor)-1)
+                broadcastMessage(""..getCreatureName(cid).." [INVADER] died. "..getGlobalStorageValue(defstor).." Defenders and "..getGlobalStorageValue(invstor).." Invaders left.")
+        elseif isInvader(cid) and getGlobalStorageValue(invstor) == 1 then
+                for _, wid in ipairs(getPlayersOnline()) do
+                        if isDefender(wid) then
+                                if not doPlayerAddItem(wid, prizes[prand].id, prizes[prand].count) then
+                                local parcel = doCreateItemEx(ITEM_PARCEL)
+                                        doAddContainerItem(parcel, prizes[prand].id, prizes[prand].count)
+                                        doPlayerSendMailByName(getCreatureName(wid), parcel, getPlayerTown(wid))
+                                        doPlayerSendTextMessage(wid, MESSAGE_STATUS_CONSOLE_BLUE, "Not enough cap. Your prize was sent to the depot.")
+                                end
+                                        doPlayerSendTextMessage(wid, MESSAGE_STATUS_CONSOLE_BLUE, "You win "..prizes[prand].count.."x "..getItemNameById(prizes[prand].id)..".")
+                        end
+                end
+                broadcastMessage("All the Invaders are dead. Defenders won the Defend The Generator Event!")
+                resetEvent()
+        elseif isDefender(cid) then
+                setGlobalStorageValue(defstor, getGlobalStorageValue(defstor)-1)
+                broadcastMessage(""..getCreatureName(cid).." [DEFENDER] died. "..getGlobalStorageValue(defstor).." Defenders and "..getGlobalStorageValue(invstor).." Invaders left.")
+        end
+                setPlayerStorageValue(cid, tstor, -1)
+                doCreatureSetDropLoot(cid, false)
+                doPlayerSetLossSkill(cid, 0)
+                doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 0)
+return true
+end
+]]></event>
+------------------------------------------------------------------------------------
+<event type="combat" name="GeneratorCast" event="script"><![CDATA[  
+domodlib('generator')
+function onCombat(cid, target)
+        if isPlayer(cid) and isPlayer(target) then
+                if isDefender(cid) and isDefender(target) or isInvader(cid) and isInvader(target) then
+                        doPlayerSendCancel(cid, "You may not attack your team mates.") return false
+                end
+        end
+return true
+end
+]]></event>
+</mod>

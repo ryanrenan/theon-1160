@@ -1,0 +1,7 @@
+<npc name="Donna" script="data/npc/scripts/info.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="132" body="79" legs="97" feet="132" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Para comprar a promotion diga {!promotion}. Para ver as magias novas diga {!spells}. Para checar o ranking diga {!rank}. Para mudar de sexo diga {!sex}. Para comprar bless diga {!bless}. Para ver os status do ser personagem diga {!charinfo}."/>
+	</parameters>
+</npc>

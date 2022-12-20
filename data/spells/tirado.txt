@@ -1,0 +1,25 @@
+nao funciona :
+        <instant name="magic prision" words="mass prison" lvl="140" mana="500" aggressive="1" selftarget="0" exhaustion="1000" needlearn="0" event="script" script="magic prison.lua">
+                <vocation id="4"/>
+                <vocation id="8"/>
+        </instant>
+	<instant name="Trap sorc" words="magic prison" lvl="140" mana="400" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="magic prison sorc.lua">
+              <vocation id="1"/>  
+              <vocation id="5"/>
+        </instant>
+	<instant name="magic prision druid" words="wild prison" lvl="140" mana="500" needtarget="1" range="8" casterTargetOrDirection="1" aggressive="1" selftarget="0" exhaustion="1000" needlearn="0" event="script" script="magic prison druid.lua">
+                <vocation id="1"/>
+                <vocation id="5"/>
+        </instant>
+        <instant name="magic prision pally" words="San Prison" lvl="140" mana="500" range="8" needtarget="1" casterTargetOrDirection="1" aggressive="1" selftarget="0" exhaustion="1000" needlearn="0" event="script" script="magic prison pally.lua">
+                <vocation id="3"/>
+                <vocation id="7"/>
+        </instant>
+        <instant name="Lance sword" words="exori gran hur" lvl="160" mana="700" aggressive="1" selftarget="0" exhaustion="1000" needlearn="0" event="script" script="lolcata.lua">
+                <vocation id="4"/>
+                <vocation id="8"/>
+		<vocation id="12"/>
+        </instant>
+
+nao sei
+

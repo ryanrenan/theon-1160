@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="George" script="data/npc/scripts/pet.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="0" body="114" legs="114" feet="77" addons="3"/>
+<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu coleciono pet basicos para vender diga {negociar}." />
+<parameter key="shop_sellable" value="holy pet,6541,100000;fire pet,6542,100000;ice pet,6543,100000;terra pet,6544,100000;energy pet,6545,100000"/>
+</parameters>
+</npc>

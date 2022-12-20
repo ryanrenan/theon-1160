@@ -1,0 +1,15 @@
+function onUse(cid, item, fromPosition, itemEx, toPosition)
+        if itemEx.itemid == 1354 then
+                local skill = getPlayerSkillLevel(cid, 6)
+                math.random(1, ((100+skill)/10))
+                doSendAnimatedText(getPlayerPosition(cid), "DEAD NOOB", TEXTCOLOR_RED)
+                doSendMagicEffect(getCreaturePosition(cid), math.random(28,30))
+                if random_number<=skill_level then
+                doPlayerAddItem(cid, 6541, 1)
+          end
+            doPlayerAddSkillTry(cid,6,1)
+    else 
+    return 0
+  end
+  return 1
+  end

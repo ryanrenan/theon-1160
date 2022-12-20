@@ -1,0 +1,9 @@
+<npc name="Lary" script="data/npc/scripts/ingot.lua" walkinterval="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="147" head="0" body="94" legs="113" feet="76" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Diga {negociar} para vender gold ingot." />
+		<parameter key="shop_sellable" value="gold ingot,9971,1700000"/>
+	</parameters>
+</npc>

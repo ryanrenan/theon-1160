@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster manacost="0" speed="380" experience="10000" race="fire" nameDescription="annihilon" name="Annihilon">
+
+<health max="120000" now="120000"/>
+
+<look corpse="6068" feet="96" legs="96" body="104" head="19" type="12"/>
+
+<targetchange chance="8" interval="5000"/>
+
+<strategy defense="0" attack="100"/>
+
+
+-<flags>
+
+<flag summonable="0"/>
+
+<flag attackable="1"/>
+
+<flag hostile="1"/>
+
+<flag illusionable="0"/>
+
+<flag convinceable="0"/>
+
+<flag pushable="0"/>
+
+<flag canpushitems="1"/>
+
+<flag canpushcreatures="1"/>
+
+<flag targetdistance="1"/>
+
+<flag staticattack="85"/>
+
+<flag runonhealth="0"/>
+
+</flags>
+
+
+-<attacks>
+
+<attack name="melee" interval="2000" attack="175" skill="185"/>
+
+
+-<attack name="death" max="-600" chance="11" interval="1000" min="0" spread="0" length="8">
+
+<attribute value="mortarea" key="areaEffect"/>
+
+</attack>
+
+
+-<attack name="death" max="-700" chance="15" interval="2000" min="-200" radius="4" target="0">
+
+<attribute value="icearea" key="areaEffect"/>
+
+</attack>
+
+
+-<attack name="physical" max="-255" chance="18" interval="3000" min="-50" radius="5" target="1">
+
+<attribute value="groundshaker" key="areaEffect"/>
+
+</attack>
+
+</attacks>
+
+
+-<defenses defense="55" armor="60">
+
+
+-<defense name="healing" max="900" chance="14" interval="1000" min="400">
+
+<attribute value="greenshimmer" key="areaEffect"/>
+
+</defense>
+
+
+-<defense name="speed" chance="4" interval="1000" duration="7000" speedchange="500">
+
+<attribute value="blueshimmer" key="areaEffect"/>
+
+</defense>
+
+</defenses>
+
+
+-<elements>
+
+<element icePercent="20"/>
+
+<element deathPercent="20"/>
+
+<element firePercent="20"/>
+
+</elements>
+
+
+-<immunities>
+
+<immunity lifedrain="1"/>
+
+<immunity invisible="1"/>
+
+</immunities>
+
+
+-<voices chance="10" interval="5000">
+
+<voice yell="1" sentence="Annihilation!"/>
+
+</voices>
+
+
+-<loot>
+
+<item chance="35" countmax="1" id="2157"/>
+
+<!-- gold coin -->
+
+
+<item chance="0" countmax="50" id="2148"/>
+
+<!-- gold coin -->
+
+
+<item chance="0" countmax="20" id="2150"/>
+
+<!-- small amethyst -->
+
+
+<item chance="0" id="2520"/>
+
+<!-- fire axe -->
+
+
+
+-<item chance="0" id="1987">
+
+<!-- bag -->
+
+
+
+-<inside>
+
+<item chance="0" id="2158"/>
+
+<!-- blue gem -->
+
+
+<item chance="0" id="2520"/>
+
+<!-- demon shield -->
+
+
+<item chance="0" id="2165"/>
+
+<!-- stealth ring -->
+
+
+</inside>
+
+</item>
+
+</loot>
+
+</monster>

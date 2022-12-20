@@ -1,0 +1,40 @@
+Minerar:
+if stonesMinerar[itemEx.itemid] then
+
+local stonesMinerar = {
+    [1353] = {minerioid=2160, quant=1, chan=90}, -- [id da pedra] = {minerioid = id do item que ganha, quant = quantidade que ganha}
+    [1354] = {minerioid=2152, quant=1, chan=70},
+    [1355] = {minerioid=2159, quant=1, chan=50},
+    [1355] = {minerioid=2159, quant=1, chan=30},
+    [1355] = {minerioid=2159, quant=1, chan=10},
+}
+
+local config = {
+    levelMin = 125, -- level minimo pra usar.
+    exhaustionMinutes = 0, -- exausted em minutos
+    effectChar = 30, -- efeito no char.
+    storageUse = 34542 -- storage usado/ não mude caso não entenda.
+}
+local sto = 8749
+local ramdom = stonesMinerar.chan
+
+function onUse(cid, item, fromPosition, itemEx, toPosition)
+if getPlayerStorageValue(cid, 8749) < 1 then
+doPlayerSendCancel(cid, "Voce nao completou a quest para usar a picareta.")
+return true
+end
+
+if (stonesMinerar.chan > math.random(1, 100)) then
+    if getPlayerLevel(cid) >= config.levelMin and getPlayerStorageValue(cid, 8749) == 1 then
+        doPlayerAddItem(cid, stonesMinerar[itemEx.itemid].minerioid, stonesMinerar[itemEx.itemid].quant)
+        doPlayerSendTextMessage(cid, 19, "Você recebeu "..(stonesMinerar[itemEx.itemid].quant).." "..getItemNameById(stonesMinerar[itemEx.itemid].minerioid).."!")
+        doSendMagicEffect(getPlayerPosition(cid), config.effectChar)
+    else
+        doPlayerSendCancel(cid, "Apenas player com level "..config.levelMin.." ou superior podem minerar.")
+    end
+else
+    doPlayerSendCancel(cid, "Você não pode minerar isso.")
+end
+end
+return true
+end

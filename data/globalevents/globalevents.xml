@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	    <globalevent name="clean" interval="3660" event="script" value="clean.lua"/>
+        <event type="death" name="teleportmonster" script="tpmonster.lua"/>
+        <globalevent name="message" interval="600" script="message.lua"/>
+	    <globalevent name="serverstart" type="start" event="script" value="start.lua"/>
+       <globalevent name="lottery" interval="3600" event="script" value="lottery.lua"/>
+	    <globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+	    <globalevent name="save" interval="2200" event="script" value="save.lua"/> 
+        <globalevent name="Summon" interval="0" event="script" value="summon.lua"/>
+        <globalevent name="teleports" interval="1" script="falante.lua"/>
+        <globalevent name="teleports2" interval="1" script="falante2.lua"/>
+
+        <globalevent name="Castle Doors" interval="3600" event="script" value="castle.lua"/>
+        <globalevent name="Zumbi" interval="2700" event="script" value="zumbi.lua"/>
+	<!-- <globalevent name="timer_example" time="21:35" event="script" value="my_script.lua"/> -->
+        <globalevent name="zombieevent" interval="2700" event="script" value="zombie event.lua"/>
+
+
+        <globalevent name="mercenarios" interval="1200" event="script" value="mercenarios.lua"/> 
+		<globalevent name="Ferumbras" interval="7200" event="script" value="Ferumbras.lua"/> 
+        <globalevent name="saquiadores" interval="1800" event="script" value="saquiadores.lua"/> 
+        <globalevent name="exterminadores" interval="3600" event="script" value="exterminadores.lua"/>
+		<globalevent name="TopLevels" interval="1800" event="script" value="toplevel.lua"/>
+
+
+
+        <globalevent name="GlobalBattle" interval="3000" event="script" value="BattleGlobalEvents.lua"/>
+</globalevents>

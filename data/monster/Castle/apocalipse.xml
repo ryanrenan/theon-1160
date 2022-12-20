@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Apocalypse" nameDescription="apocalypse" race="blood" experience="0" speed="2000" manacost="0">
+	<health now="820000" max="820000"/>
+  	<look type="12" head="0" body="86" legs="1320" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="2000" chance="3"/>
+	<strategy attack="100" defense="120"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="10" attack="3200"/>
+	
+            <attack name="physical" interval="1000" chance="10" length="10" spread="0" min="-1000" max="-10000">
+
+	</attack>
+            <attack name="Avalanche" interval="1000" chance="8" radius="20" target="0" min="-2000" max="-10000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+			
+            <attribute key="shootEffect" value="ice"/>
+
+	</attack>
+            <attack name="energy" interval="1000" chance="9" length="8" spread="0" min="-2000" max="-3000">
+			
+                     <attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+	<attack name="ice" interval="1000" chance="8" target="0" radius="6" min="-9000" max="-9000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+	
+	</attack>
+           <attack name="Energy Strike" interval="800" chance="120" radius="4" target="0" min="-9200" max="-9000">
+			
+                     <attribute key="areaEffect" value="energy"/>
+
+           </attack>
+  </attacks>
+<defenses armor="1200" defense="1200"/>
+
+	<elements>
+	
+	<element energyPercent="100"/>
+</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot capacity="900">
+		<item id="2160" countmax="20" chance="220000"/><!-- Crystal coin -->
+		<item id="2160" countmax="39" chance="220000"/><!-- Crystal coin -->
+		<item id="2160" countmax="22" chance="220000"/><!-- Crystal coin -->
+		<item id="2160" countmax="33" chance="220000"/><!-- Crystal coin -->	
+                <item id="2160" countmax="200" chance="220000"/><!-- Crystal coin -->
+
+                     <item id="2183" countmax="1" chance="50"/><!-- apocalypse rod -->
+                     <item id="7770" countmax="1" chance="50"/><!-- apocalypse axe -->
+                     <item id="7764" countmax="1" chance="50"/><!-- apocalypse sword -->
+                     <item id="7773" countmax="1" chance="50"/><!-- apocalypse club -->
+                     <item id="88208" countmax="1" chance="50"/><!-- apocalypse bow -->
+                     <item id="7364" countmax="1" chance="50"/><!-- apocalypse arrow -->
+                      <item id="20912" countmax="1" chance="50"/><!-- escama de apocalypse -->
+                      <item id="2090" countmax="1" chance="50"/><!-- chave -->
+
+        
+                     <item id="102021" chance="100000"><!-- bag -->
+		<inside>
+                     <item id="2471" countmax="1" chance="20"/><!-- golden helmet -->
+                     <item id="2466" countmax="1" chance="20"/><!-- golden armor -->
+                     <item id="2470" countmax="1" chance="20"/><!-- golden legs -->
+
+
+                     <item id="2493" countmax="1" chance="20"/><!-- demon helmet -->
+                     <item id="2494" countmax="1" chance="20"/><!-- demon armor -->
+                     <item id="24920" countmax="1" chance="20"/><!-- demon leges -->
+
+
+                     <item id="22006" countmax="1" chance="20"/><!-- dragon scale helmet -->
+                     <item id="2492" countmax="1" chance="20"/><!-- dragon scale mail -->
+                     <item id="2469" countmax="1" chance="20"/><!-- dragon scale legs -->
+
+
+                     <item id="7902" countmax="1" chance="20"/><!-- glacier mask -->
+                     <item id="7897" countmax="1" chance="20"/><!-- glacier robe -->
+                     <item id="7896" countmax="1" chance="20"/><!-- glacier kilt -->
+
+
+                     <item id="2662" countmax="1" chance="20"/><!-- magician hat -->
+                     <item id="26206" countmax="1" chance="20"/><!-- blue robe -->
+                     <item id="7730" countmax="1" chance="20"/><!-- blue legs -->
+
+
+		     <item id="9776" countmax="1" chance="20"/><!-- yalahari armor -->
+                     <item id="9777" countmax="1" chance="20"/><!-- yalahari legs -->
+                     <item id="9778" countmax="1" chance="20"/><!-- yalahari mask -->
+
+                     
+                     <item id="2433" countmax="1" chance="20"/><!-- enchanted staff -->
+                     <item id="8926" countmax="1" chance="20"/><!--  demonwing axe-->
+                     <item id="8927" countmax="1" chance="20"/><!-- trinity mace -->
+                     <item id="8931" countmax="1" chance="20"/><!-- flame blade -->
+                     <item id="2389" countmax="1" chance="20"/><!-- spear -->
+                     <item id="88204" countmax="1" chance="20"/><!-- warsinger bow -->
+                     <item id="21420" countmax="1" chance="20"/><!-- Premium Account -->
+					 <item id="7761" countmax="10" chance="50"/><!-- flash arrow -->
+                     <item id="7762" countmax="10" chance="50"/><!-- Earth arrow -->
+                     <item id="7759" countmax="10" chance="50"/><!-- flamming arrow -->
+
+
+                     <item id="8901" countmax="1" chance="20"/><!-- spellbook of warding -->
+                     <item id="22023" countmax="1" chance="20"/><!-- blessed shield -->
+
+                     
+                     <item id="2124" countmax="1" chance="20"/><!-- recovery ring -->
+                     <item id="6132" countmax="1" chance="20"/><!-- flash boots -->
+                     <item id="2138" countmax="1" chance="20"/><!-- sapphire amulet -->
+                     <item id="48200" countmax="1" chance="20"/><!-- draug pet egg -->
+                     <item id="102023" countmax="1" chance="20"/><!-- many pet egg -->
+                     <item id="10223" countmax="1" chance="20"/><!-- mechanical fishing rod -->
+
+
+                     <item id="7838" countmax="1" chance="20"/><!-- flash arrow -->
+                     <item id="78200" countmax="1" chance="20"/><!-- Earth arrow -->
+                     <item id="7840" countmax="1" chance="20"/><!-- flamming arrow -->
+                     <item id="7839" countmax="1" chance="20"/><!-- shiver arrow -->   </inside>
+
+                     </item>
+	</loot>
+</monster>

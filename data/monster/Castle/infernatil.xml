@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Infernatil" nameDescription="infernatil" race="blood" experience="0" speed="1000" manacost="0">
+	<health now="1000000" max="1000000"/>
+  	<look type="12" head="0" body="112" legs="0" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="80" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="200" attack="3500"/>
+     <attack name="fire" interval="500" chance="30" range="7" radius="7" target="1" min="-3500" max="-9000">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="firefield" interval="10000" chance="12" range="7" radius="1" target="1">
+		<attribute key="shootEffect" value="fire"/>
+	</attack>
+    <attack name="lifedrain" interval="2000" chance="12" length="8" spread="0" min="-3000" max="-900">
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+	<attack name="speed" interval="1000" chance="15" target="1" speedchange="-750" duration="-2000">
+		<attribute key="shootEffect" value="fire"/>
+	</attack>
+	<attack name="energy" interval="1000" chance="10" range="1" target="1" min="-500" max="-1200">
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+  </attacks>
+	<defenses armor="42" defense="60"/>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot capacity="900">
+		<item id="2160" countmax="40" chance="25000"/><!-- Crystal coin -->
+		<item id="2160" countmax="65" chance="25000"/><!-- Crystal coin -->
+		<item id="2160" countmax="43" chance="25000"/><!-- Crystal coin -->
+		<item id="2160" countmax="33" chance="25000"/><!-- Crystal coin -->	
+                <item id="2160" countmax="10" chance="25000"/><!-- Crystal coin -->
+
+                     <item id="2191" countmax="1" chance="50"/><!-- infernatil's wand -->
+                     <item id="8921" countmax="1" chance="50"/><!-- infernatil's rod -->	
+                     <item id="7753" countmax="1" chance="50"/><!-- infernatil's axe -->
+                     <item id="7748" countmax="1" chance="50"/><!-- infernatil's sword -->
+                     <item id="7755" countmax="1" chance="50"/><!-- infernatil's club -->
+                     <item id="2546" countmax="1" chance="50"/><!-- infernatil's arrow -->
+					 <item id="8853" countmax="1" chance="50"/><!-- infernatil's Bow -->
+
+        
+                     <item id="11119" chance="100000"><!-- bag -->
+		<inside>
+                     <item id="2471" countmax="1" chance="20"/><!-- golden helmet -->
+                     <item id="2466" countmax="1" chance="20"/><!-- golden armor -->
+                     <item id="2470" countmax="1" chance="20"/><!-- golden legs -->
+                     <item id="7761" countmax="10" chance="50"/><!-- flash arrow -->
+                     <item id="7762" countmax="10" chance="50"/><!-- Earth arrow -->
+                     <item id="7759" countmax="10" chance="50"/><!-- flamming arrow -->
+
+
+                     <item id="2493" countmax="1" chance="20"/><!-- demon helmet -->
+                     <item id="2494" countmax="1" chance="20"/><!-- demon armor -->
+                     <item id="24920" countmax="1" chance="20"/><!-- demon leges -->
+
+
+                     <item id="22006" countmax="1" chance="20"/><!-- dragon scale helmet -->
+                     <item id="2492" countmax="1" chance="20"/><!-- dragon scale mail -->
+                     <item id="2469" countmax="1" chance="20"/><!-- dragon scale legs -->
+
+
+                     <item id="7902" countmax="1" chance="20"/><!-- glacier mask -->
+                     <item id="7897" countmax="1" chance="20"/><!-- glacier robe -->
+                     <item id="7896" countmax="1" chance="20"/><!-- glacier kilt -->
+
+
+                     <item id="2662" countmax="1" chance="20"/><!-- magician hat -->
+                     <item id="26206" countmax="1" chance="20"/><!-- blue robe -->
+                     <item id="7730" countmax="1" chance="20"/><!-- blue legs -->
+
+
+		     <item id="9776" countmax="1" chance="20"/><!-- yalahari armor -->
+                     <item id="9777" countmax="1" chance="20"/><!-- yalahari legs -->
+                     <item id="9778" countmax="1" chance="20"/><!-- yalahari mask -->
+
+                     
+                     <item id="2433" countmax="1" chance="20"/><!-- enchanted staff -->
+                     <item id="8926" countmax="1" chance="20"/><!--  demonwing axe-->
+                     <item id="8927" countmax="1" chance="20"/><!-- trinity mace -->
+                     <item id="8931" countmax="1" chance="20"/><!-- flame blade -->
+                     <item id="2389" countmax="1" chance="20"/><!-- spear -->
+                     <item id="88204" countmax="1" chance="20"/><!-- warsinger bow -->
+                     <item id="21420" countmax="1" chance="20"/><!-- Premium Account -->
+
+
+                     <item id="8901" countmax="1" chance="20"/><!-- spellbook of warding -->
+                     <item id="22023" countmax="1" chance="20"/><!-- blessed shield -->
+
+                     
+                     <item id="2124" countmax="1" chance="20"/><!-- recovery ring -->
+                     <item id="6132" countmax="1" chance="20"/><!-- flash boots -->
+                     <item id="2138" countmax="1" chance="20"/><!-- sapphire amulet -->
+                     <item id="48200" countmax="1" chance="20"/><!-- draug pet egg -->
+                     <item id="102023" countmax="1" chance="20"/><!-- many pet egg -->
+                     <item id="10223" countmax="1" chance="20"/><!-- mechanical fishing rod -->
+
+
+                     <item id="7838" countmax="1" chance="20"/><!-- flash arrow -->
+                     <item id="78200" countmax="1" chance="20"/><!-- Earth arrow -->
+                     <item id="7840" countmax="1" chance="20"/><!-- flamming arrow -->
+                     <item id="7839" countmax="1" chance="20"/><!-- shiver arrow -->   </inside>
+
+                     </item>
+	</loot>
+</monster>

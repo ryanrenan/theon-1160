@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Vendedor de panos" script="data/npc/scripts/panos.lua" walkinterval="1000" floorchange="0">
+<health now="100" max="100"/>
+<look type="152" head="0" body="144" legs="114" feet="7" addons="3" corpse="2212"/>
+<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_sellable" value="Escama de Orshabaal,5909,50000000;Escama de Verminor,5910,70000000;Escama de Apocalypse,5912,80000000;Escama de Infernatil,5911,140000000;Escama de Bazir,5913,190000000;Escama de Castle Master,5914,320000000"/>
+</parameters>
+</npc>

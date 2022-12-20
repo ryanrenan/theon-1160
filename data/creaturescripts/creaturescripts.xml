@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="login" name="FirstItems" event="script" value="firstitems.lua"/>
+	<event type="login" name="StartSkills" event="script" value="startskills.lua"/>
+        <event type="death" name="teleportmonster" script="teleportmonster.lua"/>
+        <event type="login" name="AntiMbCrash" event="script" value="antimbcrash.lua"/>
+        <event type="login" name="playercheck" script="playercheck.lua"/>
+        <event type="look" name="CheckStorage" event="script" value="checkstorage.lua"/> 
+	<event type="login" name="Lowlevellock" event="script" value="lowlevellock.lua"/>
+	<event type="kill" name="FragReward" event="script" value="onkill.lua"/>
+	<event type="login" name="AntiMC" event="script" value="antimc.lua"/>
+	<event type="kill" name="autoloot" event="script" value="Auto Loot.lua"/>
+	<event type="login" name="TopEffect" event="script" value="topeffect.lua"/>
+    <event type="advance" name="CheckTop" event="script" value="topeffect.lua"/>
+<event type="statschange" name="ExpGain" event="script" value="exphit.lua"/>
+<event type="combat" name="ExpHit" event="script" value="exphit.lua"/>
+
+
+
+        <event type="login" name="fraglook_register" event="script" value="fraglook.lua"/>
+        <event type="look" name="fraglook" event="script" value="fraglook.lua"/>
+
+        <event type="combat" name="PartyAttack" event="script" value="party.lua"/>
+        <event type="death" name="DeathBroadcast" event="script" value="deathBroadcast.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+        <event type="advance" name="Playeradvance" event="script" value="uplevel.lua"/>
+           <event type="advance" name="142" event="script" value="142.lua"/>
+           <event type="login" name="fragl" event="script" value="gardenal.lua"/>
+           <event type="attack" name="WeaponPar" event="script" value="weaponpar.lua"/>
+           <event type="advance" name="upgain" event="script" value="upgain.lua"/>
+           <event type="kill" name="fragk" event="script" value="gardenal.lua"/>
+           <event type="death" name="ProtectLevel" event="script" value="ProtectLevel.lua"/> 
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+        <event type="advance" name="Recompensa" script="recompensa.lua"/>
+        <event type="death" name="tp" event="script" value="tp.lua"/>
+        <event type="advance" name="Playeradvance" event="script" value="advance.lua"/>
+        <event type="advance" name="Fullmh" event="script" value="fullmh.lua"/>
+
+
+        <event type="statschange" name="zombieevent" event="script" value="zombie event.lua"/>
+        <event type="think" name="ZombieThink" event="script" value="zombie/onthink.lua"/>
+        <event type="statschange" name="ZombieAttack" event="script" value="zombie/onattack.lua"/>
+        <event type="death" name="ZombieDeath" event="script" value="zombie/ondeath.lua"/>
+
+
+
+ 
+       <event type="login" name="BattleLogin" event="script" value="BattleCreatureScript.lua"/>
+       <event type="PrepareDeath" name="BattleDeath" event="script" value="BattleCreatureScript.lua"/>
+       <event type="combat" name="BattleTeam" event="script" value="BattleCreatureScript.lua"/>
+</creaturescripts>

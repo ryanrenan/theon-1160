@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pescadora" nameDescription="a pescadora" race="blood" experience="0" speed="1500" manacost="0">
+	<health now="50000" max="50000"/>
+  	<look type="136" head="0" body="62" legs="98" feet="114" corpse="3128" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="90" defense="120"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="550" skill="45" attack="320"/>
+	</attacks>
+	<defenses armor="120" defense="120">
+		<defense name="healing" interval="6000" chance="100" min="100" max="500"/>
+        </defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot capacity="900">
+		<item id="2152" countmax="40" chance="7000"/>
+		<item id="2152" countmax="35" chance="500"/>
+		<item id="2152" countmax="48" chance="13000"/>
+		<item id="2152" countmax="36" chance="20000"/>
+                <item id="2152" countmax="48" chance="13000"/>
+		<item id="2152" countmax="63" chance="2000"/>
+		<item id="2152" countmax="90" chance="2000"/>
+		<item id="2152" countmax="80" chance="300"/>
+		<item id="2152" countmax="90" chance="33300"/>
+		<item id="2152" countmax="70" chance="22200"/>
+		<item id="2152" countmax="50" chance="13000"/>
+	</loot>
+</monster>

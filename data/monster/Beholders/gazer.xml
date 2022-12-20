@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gazer" nameDescription="a gazer" race="venom" experience="50000" speed="540" manacost="0">
+	<health now="10120" max="10120"/>
+	<look type="109" corpse="6036"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="25" attack="9"/>
+		<attack name="lifedrain" interval="1000" chance="12" range="7" min="-250" max="-435">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="manadrain" interval="1000" chance="15" range="7" min="-150" max="-250">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="4" defense="15">
+		<defense name="speed" interval="1000" chance="10" speedchange="320" duration="4000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="10"/>
+		<element icePercent="10"/>
+		<element energyPercent="10"/>
+		<element firePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10000000">
+		<voice sentence="Mommy!?"/>
+		<voice sentence="Buuuuhaaaahhaaaaa!5%ChanceDROP"/>
+		<voice sentence="mana!"/>
+	</voices>
+	<loot>
+		<item id="2160" countmax="3" chance="20000"/>
+		             <item id="2145" countmax="1" chance="5"/><!-- Premium Account -->
+		     <item id="2471" countmax="1" chance="5"/><!-- golden helmet -->
+              <item id="2471" countmax="1" chance="5"/><!-- golden helmet -->
+                     <item id="2466" countmax="1" chance="5"/><!-- golden armor -->
+                     <item id="2470" countmax="1" chance="5"/><!-- golden legs -->
+
+
+                     <item id="2493" countmax="1" chance="5"/><!-- demon helmet -->
+                     <item id="2494" countmax="1" chance="5"/><!-- demon armor -->
+                     <item id="2495" countmax="1" chance="5"/><!-- demon leges -->
+
+
+                     <item id="2506" countmax="1" chance="5"/><!-- dragon scale helmet -->
+                     <item id="2492" countmax="1" chance="5"/><!-- dragon scale mail -->
+                     <item id="2469" countmax="1" chance="5"/><!-- dragon scale legs -->
+
+
+                     <item id="7902" countmax="1" chance="5"/><!-- glacier mask -->
+                     <item id="7897" countmax="1" chance="5"/><!-- glacier robe -->
+                     <item id="7896" countmax="1" chance="5"/><!-- glacier kilt -->
+
+
+                     <item id="2662" countmax="1" chance="5"/><!-- magician hat -->
+                     <item id="2656" countmax="1" chance="5"/><!-- blue robe -->
+                     <item id="7730" countmax="1" chance="5"/><!-- blue legs -->
+
+
+		     <item id="9776" countmax="1" chance="5"/><!-- yalahari armor -->
+                     <item id="9777" countmax="1" chance="5"/><!-- yalahari legs -->
+                     <item id="9778" countmax="1" chance="5"/><!-- yalahari mask -->
+
+                     
+                     <item id="2433" countmax="1" chance="5"/><!-- enchanted staff -->
+                     <item id="8926" countmax="1" chance="5"/><!--  demonwing axe-->
+                     <item id="8927" countmax="1" chance="5"/><!-- trinity mace -->
+                     <item id="8931" countmax="1" chance="5"/><!-- flame blade -->
+                     <item id="2389" countmax="1" chance="5"/><!-- spear -->
+                     <item id="8854" countmax="1" chance="5"/><!-- warsinger bow -->
+
+
+                     <item id="8901" countmax="1" chance="5"/><!-- spellbook of warding -->
+                     <item id="2523" countmax="1" chance="5"/><!-- blessed shield -->
+
+                     
+                     <item id="2124" countmax="1" chance="5"/><!-- recovery ring -->
+                     <item id="6132" countmax="1" chance="5"/><!-- flash boots -->
+                     <item id="2138" countmax="1" chance="5"/><!-- sapphire amulet -->
+                     <item id="4850" countmax="1" chance="5"/><!-- draug pet egg -->
+                     <item id="10523" countmax="1" chance="5"/><!-- many pet egg -->
+                     <item id="10223" countmax="1" chance="5"/><!-- mechanical fishing rod -->
+
+                     <item id="2124" countmax="1" chance="5"/><!-- recovery ring -->
+                     <item id="6132" countmax="1" chance="5"/><!-- flash boots -->
+                     <item id="2138" countmax="1" chance="5"/><!-- sapphire amulet -->
+                     <item id="4850" countmax="1" chance="5"/><!-- draug pet egg -->
+                     <item id="10523" countmax="1" chance="5"/><!-- many pet egg -->
+                     <item id="10223" countmax="1" chance="5"/><!-- mechanical fishing rod -->
+
+
+                     <item id="7838" countmax="1" chance="5"/><!-- flash arrow -->
+                     <item id="7850" countmax="1" chance="5"/><!-- Earth arrow -->
+                     <item id="7840" countmax="1" chance="5"/><!-- flamming arrow -->
+                     <item id="7839" countmax="1" chance="5"/><!-- shiver arrow -->
+	</loot>
+</monster>

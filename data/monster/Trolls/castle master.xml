@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Castle Master" nameDescription="castle master" race="blood" experience="400000" speed="1000" manacost="0">
+	<health now="12000000" max="12000000"/>
+  	<look type="12" head="114" body="114" legs="114" feet="114" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="500" skill="200" attack="4000"/>
+    <attack name="manadrain" interval="800" chance="13" range="7" min="0" max="-1200"/>
+    <attack name="fire" interval="1000" chance="50" range="6" radius="6" target="1" min="-10000" max="-40000">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+	<attack name="speed" interval="100" chance="15" target="1" speedchange="-550" duration="-30000">
+		<attribute key="shootEffect" value="suddendeath"/>
+	</attack>
+<attack name="death" interval="5000" chance="70" length="8" spread="0" min="-20000" max="-90600">
+			
+<attribute key="areaEffect" value="mortarea"/>
+	 
+	</attack>
+  </attacks>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot capacity="900">
+		<item id="2160" countmax="100" chance="50000"/>
+		<item id="2160" countmax="100" chance="50000"/>
+		<item id="2160" countmax="100" chance="50000"/>
+		<item id="2160" countmax="100" chance="50000"/>
+		<item id="2160" countmax="100" chance="50000"/>
+		<item id="2160" countmax="100" chance="50000"/>
+		<item id="2160" countmax="100" chance="50000"/>
+                <item id="5926" chance="100000"><!-- bag -->
+		<inside>
+                     <item id="2471" countmax="1" chance="40"/><!-- golden helmet -->
+                     <item id="2466" countmax="1" chance="40"/><!-- golden armor -->
+                     <item id="2470" countmax="1" chance="40"/><!-- golden legs -->
+
+
+                     <item id="2493" countmax="1" chance="40"/><!-- demon helmet -->
+                     <item id="2494" countmax="1" chance="40"/><!-- demon armor -->
+                     <item id="2495" countmax="1" chance="40"/><!-- demon leges -->
+
+
+                     <item id="2506" countmax="1" chance="40"/><!-- dragon scale helmet -->
+                     <item id="2492" countmax="1" chance="40"/><!-- dragon scale mail -->
+                     <item id="2469" countmax="1" chance="40"/><!-- dragon scale legs -->
+
+
+                     <item id="7902" countmax="1" chance="40"/><!-- glacier mask -->
+                     <item id="7897" countmax="1" chance="40"/><!-- glacier robe -->
+                     <item id="7896" countmax="1" chance="40"/><!-- glacier kilt -->
+
+
+                     <item id="2662" countmax="1" chance="40"/><!-- magician hat -->
+                     <item id="2656" countmax="1" chance="40"/><!-- blue robe -->
+                     <item id="7730" countmax="1" chance="40"/><!-- blue legs -->
+
+
+		     <item id="9776" countmax="1" chance="40"/><!-- yalahari armor -->
+                     <item id="9777" countmax="1" chance="40"/><!-- yalahari legs -->
+                     <item id="9778" countmax="1" chance="40"/><!-- yalahari mask -->
+
+                     
+                     <item id="2433" countmax="1" chance="30"/><!-- enchanted staff -->
+                     <item id="8926" countmax="1" chance="30"/><!--  demonwing axe-->
+                     <item id="8927" countmax="1" chance="30"/><!-- trinity mace -->
+                     <item id="8931" countmax="1" chance="30"/><!-- flame blade -->
+                     <item id="2389" countmax="1" chance="35"/><!-- spear -->
+                     <item id="8854" countmax="1" chance="30"/><!-- warsinger bow -->
+
+
+                     <item id="8901" countmax="1" chance="25"/><!-- spellbook of warding -->
+                     <item id="2523" countmax="1" chance="25"/><!-- blessed shield -->
+                     <item id="8881" countmax="1" chance="25"/><!-- fireborn armor -->
+                     <item id="8882" countmax="1" chance="25"/><!-- earthborn armor -->
+                     <item id="8883" countmax="1" chance="25"/><!-- windborn armor -->
+                     <item id="8884" countmax="1" chance="25"/><!-- oceanborn armor -->
+                     <item id="8885" countmax="1" chance="25"/><!-- divine armor -->
+                     <item id="8886" countmax="1" chance="25"/><!-- monten plate -->
+                     <item id="8887" countmax="1" chance="25"/><!-- frozen plate -->
+                     <item id="8888" countmax="1" chance="25"/><!-- master archer's armor -->
+                     <item id="8889" countmax="1" chance="25"/><!-- skullcracker armor -->
+                     <item id="8890" countmax="1" chance="25"/><!-- underworld armor -->
+
+                     <item id="8891" countmax="1" chance="45"/><!-- paladin armor -->
+
+           
+                     <item id="2124" countmax="1" chance="20"/><!-- recovery ring -->
+                     <item id="6132" countmax="1" chance="25"/><!-- flash boots -->
+                     <item id="2138" countmax="1" chance="20"/><!-- sapphire amulet -->
+                     <item id="4850" countmax="1" chance="35"/><!-- draug pet egg -->
+                     <item id="10523" countmax="1" chance="25"/><!-- many pet egg -->
+                     <item id="10223" countmax="1" chance="35"/><!-- mechanical fishing rod -->
+
+
+                     <item id="7838" countmax="1" chance="40"/><!-- flash arrow -->
+                     <item id="7850" countmax="1" chance="40"/><!-- Earth arrow -->
+                     <item id="7840" countmax="1" chance="40"/><!-- flamming arrow -->
+                     <item id="7839" countmax="1" chance="40"/><!-- shiver arrow -->   
+</inside>
+
+                     </item>
+	</loot>
+<script>
+<event name="tp"/>
+</script>
+</monster>

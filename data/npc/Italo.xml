@@ -1,0 +1,7 @@
+<npc name="Italo" script="data/npc/scripts/casar.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="130" head="0" body="114" legs="114" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu nao estou casando ninguem no momento."/>
+	</parameters>
+</npc>

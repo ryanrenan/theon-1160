@@ -1,0 +1,7 @@
+<npc name="Josue" script="data/npc/scripts/trofeu.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="79" body="0" legs="128" feet="128" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Seja Bem-Vindo a Sala de Trocas. Eu coleciono {trofeus} de ouro, prata e bronze. E para garantir que todos troquem comigo, eu retribuo dando dados premiado."/>
+	</parameters>
+</npc>

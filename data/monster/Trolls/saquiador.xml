@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Saquiador" nameDescription="a saquiador" race="blood" experience="200000" speed="4000" manacost="0">
+	<health now="15000" max="15000"/>
+  	<look type="152" head="0" body="113" legs="94" feet="0" corpse="3128" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="80" defense="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="600" skill="40" attack="90"/>
+		<attack name="physical" interval="500" chance="15" range="7" min="-100" max="-500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="42" defense="60"/>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+	</voices>
+	<loot capacity="900">
+		<item id="2152" countmax="40" chance="7000"/>
+		<item id="2152" countmax="35" chance="500"/>
+		<item id="2152" countmax="48" chance="13000"/>
+		<item id="2152" countmax="36" chance="20000"/>
+		<item id="2152" countmax="63" chance="2000"/>
+		<item id="2152" countmax="90" chance="2000"/>
+		<item id="2152" countmax="80" chance="300"/>
+		<item id="2152" countmax="90" chance="33300"/>
+		<item id="2152" countmax="70" chance="22200"/>
+		<item id="2152" countmax="50" chance="13000"/>
+	</loot>
+</monster>
